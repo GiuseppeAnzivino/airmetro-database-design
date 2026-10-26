@@ -1,0 +1,10 @@
+# draw.io autosave / backup files
+.$*.bkp
+.$*.dtmp
+*.drawio.bkp
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -67,7 +67,13 @@ AirMetro connects **pilots** (who own a helicopter) and **clients** who need a f
    - restructured schema and logical schema
 4. **Normalization:** verification of 1NF, 2NF, 3NF and BCNF.
 
-The diagrams were made with [draw.io](https://www.drawio.com/) and are in [`diagrams/`](diagrams/).
+The diagrams were made with [draw.io](https://www.drawio.com/) and exported as PNG images, available in [`diagrams/`](diagrams/).
+
+### Final Conceptual Schema
+![Conceptual schema](diagrams/ProgConcettuale.png)
+
+### Logical Schema
+![Logical schema](diagrams/Logico.png)
 
 ---
 
@@ -94,12 +100,12 @@ The scripts target **PostgreSQL** and include:
 ├── .gitignore
 ├── docs/
 │   └── Project.pdf                 full project report (in Italian)
-├── diagrams/                       draw.io source files
-│   ├── ProgConcettuale.drawio
-│   ├── Pattern.drawio
-│   ├── RistrutturazioneLogica.drawio
-│   ├── EliminazioneGen.drawio
-│   └── Logico.drawio
+├── diagrams/                       diagrams (PNG exports)
+│   ├── ProgConcettuale.png
+│   ├── Pattern.png
+│   ├── RistrutturazioneLogica.png
+│   ├── EliminazioneGen.png
+│   └── Logico.png
 └── sql/
     ├── Creazione_Popolamento.sql   tables and sample data
     ├── Query_Viste.sql             queries and views
